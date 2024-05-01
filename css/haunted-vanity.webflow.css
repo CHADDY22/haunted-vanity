@@ -166,7 +166,7 @@
 }
 
 .image-4:hover {
-  mix-blend-mode: luminosity;
+  mix-blend-mode: normal;
 }
 
 .image-5 {
@@ -175,7 +175,7 @@
 }
 
 .image-5:hover {
-  mix-blend-mode: luminosity;
+  mix-blend-mode: normal;
 }
 
 .image-6 {
@@ -766,6 +766,10 @@
 
   .booking-form-mobile {
     display: block;
+  }
+
+  .div-block-21 {
+    display: none;
   }
 }
 
