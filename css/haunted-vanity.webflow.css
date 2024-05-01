@@ -512,6 +512,7 @@
 .image-17 {
   object-fit: fill;
   flex: none;
+  width: 75%;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -709,7 +710,7 @@
     display: none;
   }
 
-  .image-8 {
+  .policies.policy-image, .image-8 {
     display: block;
   }
 
@@ -769,6 +770,10 @@
     display: block;
   }
 
+  .image-17 {
+    width: 100%;
+  }
+
   .div-block-21 {
     display: none;
   }
@@ -809,6 +814,7 @@
   }
 
   .image-9 {
+    height: 22vh;
     margin-left: auto;
     margin-right: auto;
   }
@@ -862,6 +868,11 @@
 
   .text-block {
     font-size: 24px;
+  }
+
+  .image-13 {
+    height: 16vh;
+    margin-top: 0;
   }
 
   .div-block-12 {
@@ -931,6 +942,11 @@
 
   .hover-state:hover {
     mix-blend-mode: difference;
+  }
+
+  .text-block-7 {
+    text-align: center;
+    margin-top: 40px;
   }
 }
 
