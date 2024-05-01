@@ -817,6 +817,7 @@
     height: 22vh;
     margin-left: auto;
     margin-right: auto;
+    display: block;
   }
 
   .image-9:hover {
@@ -950,7 +951,7 @@
   }
 
   .link-block-2 {
-    flex: none;
+    flex: 1;
   }
 }
 
