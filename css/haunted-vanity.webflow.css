@@ -21,6 +21,7 @@
 
 .hv-desktop-header {
   object-fit: fill;
+  width: 100%;
   transition: all .575s;
   display: block;
 }
