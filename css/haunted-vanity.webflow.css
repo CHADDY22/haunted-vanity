@@ -948,6 +948,10 @@
     text-align: center;
     margin-top: 40px;
   }
+
+  .link-block-2 {
+    flex: none;
+  }
 }
 
 
