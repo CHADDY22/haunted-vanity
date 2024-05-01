@@ -1,0 +1,920 @@
+:root {
+  --red-wine: #3f0525;
+  --black: black;
+  --transparent: rgba(255, 255, 255, 0);
+  --off-white: #fff7e6;
+  --green: #e6ff99;
+  --hot-pink: #bf1057;
+  --white: white;
+}
+
+.frame {
+  border: 10px solid var(--red-wine);
+  background-image: url('../images/Mockstar-Retro-Print-Texture-Mockup_1.webp');
+  background-position: 50%;
+  background-size: cover;
+  width: 100vw;
+  max-width: none;
+  height: 100vh;
+  position: relative;
+}
+
+.hv-desktop-header {
+  object-fit: fill;
+  transition: all .575s;
+  display: block;
+}
+
+.hv-desktop-header:hover {
+  mix-blend-mode: difference;
+}
+
+.div-block {
+  flex-flow: column;
+  justify-content: space-between;
+  height: 100%;
+  display: flex;
+}
+
+.div-block-2 {
+  flex: 1;
+}
+
+.div-block-3 {
+  flex-flow: row;
+  justify-content: center;
+  align-items: stretch;
+  height: 80vh;
+  display: flex;
+  position: absolute;
+  top: auto;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+.vanity {
+  flex: 0 auto;
+  position: relative;
+}
+
+.image {
+  height: 80vh;
+  position: relative;
+}
+
+.wave {
+  background-image: url('../images/wave_1.webp');
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-flow: column;
+  flex: 1;
+  justify-content: flex-end;
+  align-self: flex-end;
+  align-items: stretch;
+  height: 56vh;
+  padding: 10px;
+  display: flex;
+  position: relative;
+  transform: rotate(0);
+}
+
+.wave.right-wave {
+  grid-column-gap: 6px;
+  grid-row-gap: 6px;
+  transform-style: preserve-3d;
+  background-image: url('../images/wave_1.webp');
+  background-size: cover;
+  transform: rotateX(0)rotateY(180deg)rotateZ(0);
+}
+
+.div-block-5 {
+  flex: 1;
+}
+
+.policies {
+  flex-flow: column;
+  flex: none;
+  justify-content: flex-start;
+  align-items: center;
+  width: auto;
+  padding-left: 0;
+  padding-right: 0;
+  display: block;
+}
+
+.booking {
+  flex-flow: column;
+  flex: none;
+  justify-content: flex-end;
+  align-items: stretch;
+  width: 100%;
+  display: block;
+  position: static;
+}
+
+.image-2 {
+  flex: none;
+}
+
+.salon {
+  transform-style: preserve-3d;
+  transform: rotateX(0)rotateY(-180deg)rotateZ(0);
+}
+
+.salon:hover {
+  mix-blend-mode: luminosity;
+}
+
+.portfolio {
+  transform-style: preserve-3d;
+  flex: none;
+  transform: rotateX(0)rotateY(-180deg)rotateZ(0);
+}
+
+.portfolio:hover {
+  mix-blend-mode: luminosity;
+}
+
+.instagram {
+  transform-style: preserve-3d;
+  flex: none;
+  transform: rotateX(0)rotateY(-180deg)rotateZ(0);
+}
+
+.instagram:hover {
+  mix-blend-mode: luminosity;
+}
+
+.image-3 {
+  width: 100%;
+  height: 100%;
+}
+
+.image-3:hover {
+  mix-blend-mode: normal;
+}
+
+.image-4 {
+  width: 100%;
+  height: 100%;
+}
+
+.image-4:hover {
+  mix-blend-mode: luminosity;
+}
+
+.image-5 {
+  width: 100%;
+  height: 100%;
+}
+
+.image-5:hover {
+  mix-blend-mode: luminosity;
+}
+
+.image-6 {
+  width: 100%;
+  height: 100%;
+}
+
+.image-6:hover {
+  mix-blend-mode: luminosity;
+}
+
+.image-7 {
+  width: 100%;
+  height: 100%;
+}
+
+.image-7:hover {
+  mix-blend-mode: luminosity;
+}
+
+.div-block-6 {
+  display: none;
+}
+
+.image-8 {
+  padding: 27px;
+  display: none;
+}
+
+.image-12 {
+  display: none;
+}
+
+.div-block-7 {
+  background-color: var(--red-wine);
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.div-block-8 {
+  background-color: var(--black);
+  width: 100vw;
+  height: 100vh;
+}
+
+.html-embed {
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 85px;
+  display: flex;
+}
+
+.div-block-9 {
+  background-color: var(--red-wine);
+  height: 75vh;
+  display: none;
+}
+
+.portfolio-header {
+  background-image: url('../images/Mockstar-Retro-Print-Texture-Mockup_1.webp');
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  flex-flow: column;
+  align-items: stretch;
+  width: 100vw;
+  height: auto;
+  display: flex;
+}
+
+.portfolio-header.policy-mod {
+  background-attachment: fixed;
+}
+
+.div-block-11 {
+  background-image: url('../images/black-texture_1.webp');
+  background-position: 0 0;
+  background-size: auto;
+  flex-flow: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  text-decoration: none;
+  display: flex;
+}
+
+.div-block-11:hover {
+  mix-blend-mode: exclusion;
+}
+
+.text-block {
+  color: var(--off-white);
+  font-family: Surreal, sans-serif;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 35px;
+}
+
+.image-13 {
+  margin-top: 10px;
+}
+
+.image-13.policy-mod {
+  width: 100%;
+}
+
+.div-block-12 {
+  align-self: center;
+  width: 100%;
+  margin-top: -110px;
+}
+
+.div-block-12.portfolio-mod {
+  flex-flow: column;
+  align-self: center;
+  display: flex;
+}
+
+.portfolio-gallery {
+  background-image: none;
+  background-size: auto;
+  margin-top: -250px;
+}
+
+.image-14 {
+  width: 100vw;
+}
+
+.div-block-13 {
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  background-image: url('../images/purple-background_1.webp');
+  background-position: 0 0;
+  background-size: auto;
+  flex-flow: column;
+  margin-top: -686px;
+  padding-bottom: 60px;
+  display: flex;
+  position: relative;
+}
+
+.div-block-13.booking-mod {
+  margin-top: -631px;
+  padding-bottom: 0;
+}
+
+.portfolio-content-container {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-block-2 {
+  color: var(--off-white);
+  text-align: center;
+  margin-bottom: 60px;
+  font-family: Surreal, sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 65px;
+}
+
+.div-block-14 {
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  margin-left: 60px;
+  margin-right: 60px;
+  display: grid;
+}
+
+.div-block-15 {
+  background-color: var(--black);
+  padding-bottom: 20px;
+}
+
+.image-15 {
+  border: 15px solid var(--green);
+  color: var(--green);
+  object-fit: cover;
+  width: 100%;
+  height: 850px;
+  max-height: none;
+}
+
+.div-block-16 {
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  grid-template-rows: auto auto auto auto auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  margin-left: 60px;
+  margin-right: 60px;
+  display: grid;
+}
+
+.footer-selector {
+  flex-flow: column;
+  display: flex;
+}
+
+.div-block-17 {
+  background-color: var(--hot-pink);
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  text-decoration: none;
+  display: flex;
+}
+
+.div-block-17.policy-footer-match.booking {
+  background-color: var(--black);
+}
+
+.div-block-18 {
+  background-image: url('../images/black-texture_1.webp');
+  background-position: 0 0;
+  background-size: auto;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  text-decoration: none;
+  display: flex;
+}
+
+.text-block-3 {
+  color: var(--off-white);
+  font-family: Surreal, sans-serif;
+  font-size: 35px;
+  line-height: 35px;
+}
+
+.link {
+  color: var(--off-white);
+  text-decoration: none;
+}
+
+.image-16 {
+  width: 100%;
+  max-width: none;
+}
+
+.portfolio-img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.booking-container {
+  flex-flow: column;
+  justify-content: flex-start;
+  align-self: center;
+  align-items: center;
+  max-width: 1200px;
+  margin-top: 60px;
+  display: flex;
+}
+
+.text-block-4 {
+  color: var(--off-white);
+  text-align: center;
+  max-width: 900px;
+  font-family: Surreal, sans-serif;
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.html-embed-2 {
+  width: 100%;
+}
+
+.div-block-19 {
+  object-fit: fill;
+  height: auto;
+  margin-top: 40px;
+}
+
+.booking-form-mobile {
+  display: none;
+}
+
+.body-2, .body-3 {
+  background-color: var(--black);
+}
+
+.div-block-20 {
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  display: flex;
+  position: absolute;
+  top: auto;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+.text-block-5 {
+  color: var(--green);
+  text-align: center;
+  mix-blend-mode: lighten;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: Surreal, sans-serif;
+  font-size: 47px;
+  text-decoration: none;
+}
+
+.text-span {
+  font-family: Inconsolata, monospace;
+  font-weight: 700;
+}
+
+.link-block {
+  text-align: center;
+  text-decoration: none;
+}
+
+.image-17 {
+  object-fit: fill;
+  flex: none;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.text-block-6 {
+  color: var(--off-white);
+  align-self: center;
+  margin-top: 60px;
+  font-family: Surreal, sans-serif;
+  font-size: 40px;
+  text-decoration: underline;
+}
+
+.text-block-7 {
+  color: var(--off-white);
+  width: 50%;
+  margin-top: 20px;
+  font-family: Surreal, sans-serif;
+  font-size: 23px;
+  line-height: 29px;
+}
+
+@media screen and (min-width: 1440px) {
+  .wave {
+    background-position: 50% 0;
+    height: 58vh;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .wave.right-wave {
+    background-position: 50% 0;
+    justify-content: flex-end;
+    align-items: stretch;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .hv-desktop-header {
+    display: block;
+  }
+
+  .div-block-3 {
+    height: 85vh;
+  }
+
+  .image {
+    display: none;
+  }
+
+  .wave {
+    height: 30vh;
+  }
+
+  .image-3, .image-4, .image-5, .image-6, .image-7 {
+    display: none;
+  }
+
+  .div-block-6 {
+    background-image: url('../images/haunted-vanity-mobile-vanity_1.webp');
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-flow: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 400px;
+    height: 86vh;
+    padding: 37px 40px 17px;
+    display: flex;
+  }
+
+  .image-8 {
+    display: none;
+  }
+
+  .image-9 {
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+    position: static;
+  }
+
+  .image-9:hover {
+    mix-blend-mode: difference;
+  }
+
+  .image-10, .image-11 {
+    width: 100%;
+    height: 100%;
+  }
+
+  .div-block-9 {
+    background-color: var(--transparent);
+    background-image: url('../images/haunted-vanity-mobile-section-top_1.webp');
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-flow: column;
+    justify-content: flex-end;
+    height: 146vh;
+    margin-top: -265px;
+    display: flex;
+    position: relative;
+  }
+
+  .div-block-10 {
+    margin-left: 94px;
+    margin-right: 94px;
+    padding-left: 47px;
+    padding-right: 47px;
+  }
+
+  .div-block-12 {
+    margin-top: -61px;
+  }
+
+  .portfolio-gallery {
+    margin-top: -149px;
+  }
+
+  .div-block-13 {
+    margin-top: -351px;
+  }
+
+  .div-block-13.booking-mod {
+    margin-top: -398px;
+  }
+
+  .portfolio-content-container {
+    margin-top: 40px;
+  }
+
+  .text-block-2 {
+    line-height: 50px;
+  }
+
+  .div-block-14 {
+    grid-template-columns: 1fr;
+  }
+
+  .image-15 {
+    height: 900px;
+  }
+
+  .div-block-16 {
+    grid-template-columns: 1fr;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .hover-state:hover {
+    mix-blend-mode: difference;
+  }
+
+  .text-block-5 {
+    display: none;
+  }
+
+  .text-block-7 {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hv-desktop-header {
+    display: none;
+  }
+
+  .div-block-3 {
+    flex-flow: column;
+  }
+
+  .vanity {
+    align-self: center;
+  }
+
+  .policies {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .image-8 {
+    display: block;
+  }
+
+  .div-block-9 {
+    height: 100vh;
+    padding-bottom: 10px;
+  }
+
+  .div-block-10 {
+    align-self: center;
+    min-width: 525px;
+    max-width: 575px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 95px;
+    padding-right: 86px;
+  }
+
+  .div-block-13 {
+    background-position: 50% 0;
+    background-size: auto;
+    margin-top: -281px;
+  }
+
+  .div-block-13.booking-mod {
+    margin-top: -258px;
+  }
+
+  .text-block-2 {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 28px;
+    line-height: 35px;
+  }
+
+  .div-block-14, .div-block-16 {
+    grid-template-columns: 1fr;
+  }
+
+  .booking-container {
+    width: 100vw;
+    max-width: none;
+    overflow: hidden;
+  }
+
+  .text-block-4 {
+    width: 100vw;
+    max-width: none;
+  }
+
+  .html-embed-2 {
+    width: 100vw;
+    display: none;
+  }
+
+  .booking-form-mobile {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .frame {
+    border-style: none;
+    border-width: 5px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .hv-desktop-header, .wave, .wave.right-wave {
+    display: none;
+  }
+
+  .policies {
+    margin-top: 20px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .div-block-6 {
+    grid-column-gap: 3px;
+    grid-row-gap: 3px;
+    background-position: 50% 100%;
+    background-size: contain;
+    width: 100vw;
+    height: 80vh;
+    padding: 20px 10vw;
+  }
+
+  .image-8 {
+    padding: 0;
+  }
+
+  .image-9 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .image-9:hover {
+    mix-blend-mode: difference;
+  }
+
+  .body {
+    background-color: var(--black);
+  }
+
+  .div-block-9 {
+    z-index: 9;
+    background-color: var(--transparent);
+    color: var(--transparent);
+    background-image: url('../images/haunted-vanity-mobile-section-top_1.webp');
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    flex-flow: column;
+    justify-content: flex-end;
+    height: 100vh;
+    margin-top: -244px;
+    display: flex;
+    position: relative;
+  }
+
+  .div-block-10 {
+    flex-flow: column;
+    min-width: auto;
+    max-width: none;
+    padding: 10px 20px;
+    display: flex;
+  }
+
+  .portfolio-header.policy-mod {
+    background-position: 50% 0;
+    background-size: 100vh;
+  }
+
+  .portfolio-text {
+    padding-top: 16px;
+  }
+
+  .div-block-11.w--current {
+    padding-top: 5px;
+    padding-bottom: 0;
+  }
+
+  .text-block {
+    font-size: 24px;
+  }
+
+  .div-block-12 {
+    margin-top: -22px;
+  }
+
+  .portfolio-gallery {
+    width: 100vw;
+    margin-top: -107px;
+    overflow: hidden;
+  }
+
+  .image-14 {
+    width: 150vw;
+    max-width: none;
+  }
+
+  .div-block-13 {
+    background-size: 100vw;
+    margin-top: -300px;
+  }
+
+  .div-block-13.booking-mod {
+    background-repeat: repeat;
+    background-size: contain;
+    margin-top: -322px;
+  }
+
+  .text-block-2 {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 32px;
+  }
+
+  .div-block-14 {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .image-15 {
+    height: 450px;
+  }
+
+  .div-block-16 {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .text-block-3 {
+    text-align: center;
+    font-size: 29px;
+  }
+
+  .text-block-4 {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 30px;
+  }
+
+  .html-embed-2 {
+    display: none;
+  }
+
+  .div-block-19 {
+    height: auto;
+  }
+
+  .hover-state:hover {
+    mix-blend-mode: difference;
+  }
+}
+
+
+@font-face {
+  font-family: 'Surreal';
+  src: url('../fonts/Surreal.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
