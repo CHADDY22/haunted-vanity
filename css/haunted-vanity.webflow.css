@@ -69,6 +69,8 @@
 }
 
 .wave {
+  grid-column-gap: 6px;
+  grid-row-gap: 6px;
   background-image: url('../images/wave_1.webp');
   background-position: 50% 100%;
   background-repeat: no-repeat;
@@ -181,7 +183,7 @@
 
 .image-6 {
   width: 100%;
-  height: 100%;
+  height: 25vh;
 }
 
 .image-6:hover {
@@ -529,6 +531,7 @@
 
 .text-block-7 {
   color: var(--off-white);
+  text-align: center;
   width: 50%;
   margin-top: 20px;
   font-family: Surreal, sans-serif;
@@ -543,6 +546,10 @@
 
 .policy-img:hover {
   mix-blend-mode: luminosity;
+}
+
+.text-span-2 {
+  font-family: Droid Serif, serif;
 }
 
 @media screen and (min-width: 1440px) {
@@ -772,6 +779,11 @@
 
   .image-17 {
     width: 100%;
+  }
+
+  .text-block-6 {
+    text-align: center;
+    line-height: 40px;
   }
 
   .div-block-21 {
