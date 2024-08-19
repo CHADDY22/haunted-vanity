@@ -1,7 +1,7 @@
 :root {
   --red-wine: #3f0525;
   --black: black;
-  --transparent: rgba(255, 255, 255, 0);
+  --transparent: #fff0;
   --off-white: #fff7e6;
   --green: #e6ff99;
   --hot-pink: #bf1057;
@@ -52,10 +52,7 @@
   height: 80vh;
   display: flex;
   position: absolute;
-  top: auto;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: auto 0% 0%;
 }
 
 .vanity {
@@ -484,10 +481,7 @@
   text-decoration: none;
   display: flex;
   position: absolute;
-  top: auto;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: auto 0% 0%;
 }
 
 .text-block-5 {
