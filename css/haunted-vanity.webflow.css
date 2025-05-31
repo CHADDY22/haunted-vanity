@@ -1,3 +1,11 @@
+@font-face {
+  font-family: Surreal;
+  src: url('../fonts/Surreal.otf') format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --red-wine: #3f0525;
   --black: black;
